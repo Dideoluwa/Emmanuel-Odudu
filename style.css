@@ -551,7 +551,7 @@ div .first-icon {
         padding: 10px;
     }
     .heading {
-        font-size: 41px;
+        font-size: 51px;
         text-align: center;
     }
 
@@ -560,17 +560,18 @@ div .first-icon {
         font-family: 'Roboto', sans-serif;
     }
     .work {
-        margin-top: 140px;
+        margin-top: 100px;
         margin-right: 0px;
         margin-left: 0px;
     }
     .work-head {
         font-size: 35px;
+        margin-top: 30px;
     }
     .work-txt{
         font-size: 21px;
-        margin-top: 30px;
-        margin-bottom: 70px;
+        margin-top: 10px;
+        margin-bottom: 60px;
         padding-left: 22px;
     }
 }
@@ -617,7 +618,7 @@ div .first-icon {
     }
     .work-txt{
         font-size: 19px;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 50px;
         padding-left: 18px;
     }
