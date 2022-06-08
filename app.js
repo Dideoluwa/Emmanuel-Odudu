@@ -1,3 +1,4 @@
+let heading = document.querySelectorAll('.heading')
 let close = document.querySelector('.click')
 let open = document.querySelector('.logo')
 let open2 = document.querySelector('.home')
@@ -12,7 +13,6 @@ let icon2 = document.querySelector('.second-icon')
 let icon3 = document.querySelector('.third-icon')
 let nav = document.querySelector('nav')
 let cover = document.querySelector('.init-cover')
-let heading = document.querySelector('.heading')
 const cursorRounded = document.querySelector('.rounded');
 const cursorPointed = document.querySelector('.pointed');
 
@@ -54,16 +54,18 @@ dark.addEventListener('click', () => {
     document.body.style.color = 'white'
     nav.style.backgroundColor = 'black'
     icon1.style.background = 'white'
-    heading.style.color = 'rgb(239, 54, 57)'
     icon2.style.background = 'white'
     icon3.style.background = 'white'
+    for(let head of heading)
+    head.style.color = 'rgb(239, 54, 57)'
 })
 light.addEventListener('click', () => {
     document.body.style.background = 'white'
     document.body.style.color = 'black'
     nav.style.backgroundColor = 'white'
     icon1.style.background = 'black'
-    heading.style.color = 'rgb(112, 112, 187)'
     icon2.style.background = 'black'
     icon3.style.background = 'black'
+    for(let head of heading)
+    head.style.color = 'rgb(112, 112, 187)'
 })

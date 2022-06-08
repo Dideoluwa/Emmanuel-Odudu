@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
 
 * {
     padding: 0;
@@ -310,7 +311,7 @@ div .first-icon {
 
 .heading {
     font-family: 'Charis SIL', serif;
-    font-size: 65px;
+    font-size: 85px;
     text-align: center;
     transition: 0.3s;
     color: rgb(112, 112, 187);
@@ -319,6 +320,38 @@ div .first-icon {
 .text {
     font-size: 35px;
     font-family: 'Roboto', sans-serif;
+}
+#work1{
+    color: rgb(210, 193, 98);
+}
+#work1 a{
+    color: rgb(210, 115, 98);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+#work1 a:hover{
+    color: rgb(104, 69, 59);
+    transition: all 0.3s ease-in-out;
+}
+.work {
+    margin-top: 140px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+.work-head {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: rgb(39, 125, 175);
+}
+.work-txt{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-left: 22px;
 }
 
 @keyframes jump-in {
@@ -473,6 +506,20 @@ div .first-icon {
         width: 100%;
         height: 100%;
     }
+    .work {
+        margin-top: 140px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .work-head {
+        font-size: 40px;
+    }
+    .work-txt{
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        padding-left: 22px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -500,7 +547,9 @@ div .first-icon {
         align-self: center;
         height: 100%;
     }
-
+    .about-img-wrapper img:hover {
+        padding: 10px;
+    }
     .heading {
         font-size: 41px;
         text-align: center;
@@ -509,6 +558,20 @@ div .first-icon {
     .text {
         font-size: 21px;
         font-family: 'Roboto', sans-serif;
+    }
+    .work {
+        margin-top: 140px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .work-head {
+        font-size: 35px;
+    }
+    .work-txt{
+        font-size: 21px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        padding-left: 22px;
     }
 }
 
@@ -536,5 +599,26 @@ div .first-icon {
 
     .hamburger-icon div {
         height: 3px;
+    }
+    .heading {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 19px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .work {
+        margin-top: 100px;
+    }
+    .work-head {
+        font-size: 26px;
+    }
+    .work-txt{
+        font-size: 19px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-left: 18px;
     }
 }
