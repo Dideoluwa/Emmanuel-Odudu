@@ -201,7 +201,7 @@ div .first-icon {
     background-color: rgba(0, 0, 0, 0.98);
     justify-content: center;
     align-items: center;
-    transition: 1s;
+    transition: 0.5s;
     overflow-x: hidden;
     z-index: 10;
 }
@@ -417,12 +417,12 @@ div .first-icon {
 
 @media screen and (max-width: 425px) {
     .init-cover h1 {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .click {
         font-size: 10px;
-        margin-top: 35%;
+        margin-top: 20%;
         right: 40%;
         padding: 15px 45px;
         background: rgb(32, 32, 32);
@@ -450,12 +450,12 @@ div .first-icon {
 
 @media screen and (max-width: 320px) {
     .init-cover h1 {
-        font-size: 33px;
+        font-size: 29px;
     }
 
     .click {
         font-size: 8px;
-        margin-top: 55%;
+        margin-top: 35%;
         right: 37%;
         padding: 15px 35px;
         background: rgb(32, 32, 32);
