@@ -358,7 +358,9 @@ div .first-icon {
     transition: all 0.3s ease-in-out;
     color: rgb(46, 46, 46);
 }
-
+.others{
+    margin-bottom: 25px;
+}
 @keyframes jump-in {
     0% {
         opacity: 0;
