@@ -100,7 +100,7 @@ body {
     left: 0;
     top: 0;
     height: 500%;
-    width: 140%;
+    width: 160%;
     background: rgb(32, 32, 32);
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
@@ -441,7 +441,7 @@ div .first-icon {
         font-size: 25px;
         margin-top: 15%;
         right: 45%;
-        background: rgb(32, 32, 32);
+        /* background: rgb(32, 32, 32); */
     }
 
     .menu-list p {
@@ -495,7 +495,7 @@ div .first-icon {
         font-size: 15px;
         margin-top: 6%;
         right: 45%;
-        background: rgb(32, 32, 32);
+        /* background: rgb(32, 32, 32); */
     }
 
     .menu-list p {
@@ -551,7 +551,7 @@ div .first-icon {
         margin-top: 20%;
         right: 40%;
         padding: 15px 45px;
-        background: rgb(32, 32, 32);
+        /* background: rgb(32, 32, 32); */
     }
 
     .menu-list p {
@@ -608,7 +608,7 @@ div .first-icon {
         margin-top: 35%;
         right: 37%;
         padding: 15px 35px;
-        background: rgb(32, 32, 32);
+        /* background: rgb(32, 32, 32); */
     }
     .about-img-wrapper {
         width: 60%;
