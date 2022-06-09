@@ -1,4 +1,5 @@
 let heading = document.querySelectorAll('.heading')
+let work = document.querySelectorAll('.work-txt')
 let close = document.querySelector('.click')
 let open = document.querySelector('.logo')
 let open2 = document.querySelector('.home')
@@ -57,7 +58,11 @@ dark.addEventListener('click', () => {
     icon2.style.background = 'white'
     icon3.style.background = 'white'
     for(let head of heading)
-    head.style.color = 'rgb(239, 54, 57)'
+    // head.style.color = 'rgb(239, 54, 57)'
+    head.style.color = 'rgb(90, 90, 90)'
+    for(let works of work){
+        works.style.color = 'rgb(205, 205, 205)'
+    }
 })
 light.addEventListener('click', () => {
     document.body.style.background = 'white'
@@ -67,5 +72,9 @@ light.addEventListener('click', () => {
     icon2.style.background = 'black'
     icon3.style.background = 'black'
     for(let head of heading)
-    head.style.color = 'rgb(112, 112, 187)'
+    // head.style.color = 'rgb(112, 112, 187)'
+    head.style.color = 'rgb(32, 32, 32)'
+    for(let works of work){
+        works.style.color = 'rgb(46, 46, 46)'
+    }
 })

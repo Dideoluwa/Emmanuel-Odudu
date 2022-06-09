@@ -283,12 +283,14 @@ div .first-icon {
 }
 
 #proj {
-    color: rgb(255, 54, 54);
+    /* color: rgb(255, 54, 54); */
+    color: rgb(113, 98, 115);
     cursor: pointer;
 }
 
 #pod {
-    color: rgb(255, 161, 98);
+    /* color: rgb(255, 161, 98); */
+    color: rgb(113, 98, 115);
     cursor: pointer;
 }
 
@@ -314,7 +316,7 @@ div .first-icon {
     font-size: 85px;
     text-align: center;
     transition: 0.3s;
-    color: rgb(112, 112, 187);
+    color: rgb(32, 32, 32);
 }
 
 .text {
@@ -322,10 +324,11 @@ div .first-icon {
     font-family: 'Roboto', sans-serif;
 }
 #work1{
-    color: rgb(210, 193, 98);
+    color: rgb(113, 98, 115);
 }
 #work1 a{
-    color: rgb(210, 115, 98);
+    /* color: rgb(210, 115, 98); */
+    color: rgb(204, 172, 113);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
@@ -344,7 +347,7 @@ div .first-icon {
     font-size: 50px;
     margin-top: 30px;
     margin-left: 20px;
-    color: rgb(39, 125, 175);
+    /* color: rgb(39, 125, 175); */
 }
 .work-txt{
     font-family: 'Roboto', sans-serif;
@@ -352,6 +355,8 @@ div .first-icon {
     margin-top: 30px;
     margin-bottom: 70px;
     padding-left: 22px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(46, 46, 46);
 }
 
 @keyframes jump-in {
@@ -410,6 +415,21 @@ div .first-icon {
         margin-top: 5%;
         right: 2%;
     }
+    .about h2 {
+        margin-left: 0px;
+        /* text-align: center; */
+        margin-bottom: 50px;
+    }
+    .about-img-wrapper {
+        width: 40%;
+        align-self: center;
+        height: 100%;
+    }
+
+    .about-img-wrapper img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 912px) {
@@ -455,8 +475,7 @@ div .first-icon {
     }
 
     .about-img-wrapper {
-        width: 80%;
-        padding: 10px;
+        width: 40%;
         align-self: center;
         height: 100%;
     }
@@ -496,13 +515,13 @@ div .first-icon {
     }
 
     .about-img-wrapper {
-        width: 100%;
-        padding: 30px;
+        width: 50%;
         align-self: center;
         height: 100%;
     }
 
     .about-img-wrapper img {
+        /* object-fit: cover; */
         width: 100%;
         height: 100%;
     }
@@ -543,19 +562,13 @@ div .first-icon {
 
     .about-img-wrapper {
         overflow: hidden;
-        width: 100%;
-        padding: 10px;
-        min-height: 120px;
-        max-height: auto;
-        align-self: center;
-        object-fit: cover;
-        position: relative;
+        width: 50%;
+       margin-top: 20px;
         height: 100%;
     }
     .about-img-wrapper img {
         overflow: hidden;
-        padding: 10px;
-        width: 60%;
+        width: 100%;
         height: auto;
         transition: all 0.3s ease-in-out;
     }
@@ -598,11 +611,10 @@ div .first-icon {
         background: rgb(32, 32, 32);
     }
     .about-img-wrapper {
-        width: 0%;
-        padding: 10px;
-        align-self: center;
-        margin-left: 150px;
-        height: 100%;
+        width: 60%;
+    }
+    .about-img-wrapper img{
+        width: 100%;
     }
     .logo {
         font-size: 32px;
