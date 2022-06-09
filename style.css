@@ -323,19 +323,23 @@ div .first-icon {
     font-size: 35px;
     font-family: 'Roboto', sans-serif;
 }
-#work1{
+
+#work1 {
     color: rgb(113, 98, 115);
 }
-#work1 a{
+
+#work1 a {
     /* color: rgb(210, 115, 98); */
     color: rgb(204, 172, 113);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
-#work1 a:hover{
+
+#work1 a:hover {
     color: rgb(104, 69, 59);
     transition: all 0.3s ease-in-out;
 }
+
 .work {
     margin-top: 140px;
     margin-right: 90px;
@@ -349,7 +353,8 @@ div .first-icon {
     margin-left: 20px;
     /* color: rgb(39, 125, 175); */
 }
-.work-txt{
+
+.work-txt {
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
     margin-top: 30px;
@@ -358,8 +363,54 @@ div .first-icon {
     transition: all 0.3s ease-in-out;
     color: rgb(46, 46, 46);
 }
-.others{
+
+.others {
     margin-bottom: 25px;
+}
+
+.item-wrapper {
+    width: 50%;
+}
+
+.item-wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.item1 {
+  width: 20%;
+}
+.item2 {
+    margin-top: 8%;
+    width: 25%;
+  }
+.item3 {
+    width: 20%;
+  }
+.item5{
+    width: 30%;
+}
+.item4{
+    width: 30%;
+}
+.parent-grid {
+   display: flex;
+   /* gap: 25px; */
+   /* margin-left: 22px; */
+   flex-direction: column;
+   margin-top: 50px;
+   /* background-color: red; */
+}
+.parent2{
+    display: flex;
+    flex: 1;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    max-width: 100%;
+}
+.parent3{
+    display: flex;
+    justify-content: space-evenly;
 }
 @keyframes jump-in {
     0% {
@@ -417,20 +468,27 @@ div .first-icon {
         margin-top: 5%;
         right: 2%;
     }
+
     .about h2 {
+        /* margin-top: 42px; */
         margin-left: 0px;
-        /* text-align: center; */
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
+
     .about-img-wrapper {
         width: 40%;
         align-self: center;
+        overflow: hidden;
         height: 100%;
     }
 
     .about-img-wrapper img {
         width: 100%;
-        height: 100%;
+        height: auto;
+    }
+
+    .about p {
+        margin-left: 15px;
     }
 }
 
@@ -527,15 +585,18 @@ div .first-icon {
         width: 100%;
         height: 100%;
     }
+
     .work {
         margin-top: 140px;
         margin-right: 0px;
         margin-left: 0px;
     }
+
     .work-head {
         font-size: 40px;
     }
-    .work-txt{
+
+    .work-txt {
         font-size: 25px;
         margin-top: 30px;
         margin-bottom: 70px;
@@ -565,15 +626,17 @@ div .first-icon {
     .about-img-wrapper {
         overflow: hidden;
         width: 50%;
-       margin-top: 20px;
+        margin-top: 20px;
         height: 100%;
     }
+
     .about-img-wrapper img {
         overflow: hidden;
         width: 100%;
         height: auto;
         transition: all 0.3s ease-in-out;
     }
+
     .heading {
         font-size: 51px;
         text-align: center;
@@ -583,20 +646,53 @@ div .first-icon {
         font-size: 21px;
         font-family: 'Roboto', sans-serif;
     }
+
     .work {
         margin-top: 100px;
         margin-right: 0px;
         margin-left: 0px;
     }
+
     .work-head {
         font-size: 30px;
         margin-top: 30px;
     }
-    .work-txt{
+
+    .work-txt {
         font-size: 21px;
         margin-top: 10px;
         margin-bottom: 60px;
         padding-left: 22px;
+    }
+    .item-wrapper {
+        align-self: center;
+        width: 80%;
+    }
+    
+    .item-wrapper img {
+        width: 100%;
+        /* align-items: center; */
+        object-fit: cover;
+    }
+    .parent2{
+        display: flex;
+        /* flex: 1; */
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* max-width: 100%; */
+    }
+    .parent-grid{
+        margin-top: 15px;
+    }
+ .item3{
+     margin-top: 10px;
+ }
+ .item5{
+    width: 40%;
+}
+    .parent3{
+        display: none;
+        justify-content: space-around;
     }
 }
 
@@ -612,12 +708,15 @@ div .first-icon {
         padding: 15px 35px;
         /* background: rgb(32, 32, 32); */
     }
+
     .about-img-wrapper {
         width: 60%;
     }
-    .about-img-wrapper img{
+
+    .about-img-wrapper img {
         width: 100%;
     }
+
     .logo {
         font-size: 32px;
     }
@@ -630,6 +729,7 @@ div .first-icon {
     .hamburger-icon div {
         height: 3px;
     }
+
     .heading {
         font-size: 38px;
         text-align: center;
@@ -639,13 +739,16 @@ div .first-icon {
         font-size: 19px;
         font-family: 'Roboto', sans-serif;
     }
+
     .work {
         margin-top: 100px;
     }
+
     .work-head {
         font-size: 26px;
     }
-    .work-txt{
+
+    .work-txt {
         font-size: 19px;
         margin-top: 10px;
         margin-bottom: 50px;
