@@ -487,6 +487,17 @@ div .first-icon {
     display: flex;
     justify-content: space-around;
 }
+/* .don::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    transition: width 0.3s;
+    background-color: rgb(99, 99, 99);
+}
+.don:hover::after {
+    width: 100%;
+} */
 @keyframes jump-in {
     0% {
         opacity: 0;
