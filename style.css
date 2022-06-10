@@ -709,7 +709,7 @@ div .first-icon {
     }
     .emoji3 {
         opacity: 1;
-        position: absolute;
+        position: relative;
         transform: translateX(0);
         transition: all 0.5s ease-in-out;
     }
@@ -721,7 +721,7 @@ div .first-icon {
     
     .emoji2 {
         opacity: 1;
-        position: absolute;
+        position: relative;
         transform: translateX(0%);
         transition: all 0.5s ease-in-out;
     }
@@ -757,7 +757,7 @@ div .first-icon {
     }
 
     .text {
-        font-size: 23px;
+        font-size: 25px;
         font-family: 'Roboto', sans-serif;
     }
 
@@ -784,7 +784,7 @@ div .first-icon {
     }
 
     .work-txt {
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 30px;
         margin-bottom: 70px;
         padding-left: 22px;
