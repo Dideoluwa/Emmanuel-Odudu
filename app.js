@@ -14,21 +14,10 @@ let icon2 = document.querySelector('.second-icon')
 let icon3 = document.querySelector('.third-icon')
 let nav = document.querySelector('nav')
 let cover = document.querySelector('.init-cover')
+let dateDisplay = document.querySelector('.date')
 const cursorRounded = document.querySelector('.rounded');
 const cursorPointed = document.querySelector('.pointed');
 
-
-// const moveCursor = (e)=> {
-//   const mouseY = e.clientY;
-//   const mouseX = e.clientX;
-
-//   cursorRounded.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
-
-//   cursorPointed.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
-
-// }
-
-// window.addEventListener('mousemove', moveCursor)
 close.addEventListener('click', () => {
     cover.style.height = '0%'
 })
@@ -78,3 +67,16 @@ light.addEventListener('click', () => {
         works.style.color = 'rgb(46, 46, 46)'
     }
 })
+
+
+setInterval((e) =>{
+    let date = new Date();
+    let month = date.toLocaleString('default', { month: 'long' });
+    let h = date.getHours();
+    let m = date.getMinutes();
+    let year = date.getUTCFullYear();
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    let newdate ='Ⓒ' + ' ' +h + ':' + m + ' '  + month + ',' + year;
+    dateDisplay.innerHTML = newdate
+}, 1000)
