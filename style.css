@@ -708,21 +708,21 @@ div .first-icon {
         margin-top: 60px;
     }
     .emoji3 {
-        opacity: 0;
+        opacity: 1;
         position: absolute;
-        transform: translateX(10%);
+        transform: translateX(0);
         transition: all 0.5s ease-in-out;
     }
     .w3:hover + .emoji3 {
         opacity: 1;
-        transform: translateX(0%);
+        transform: translateX(0);
         transition: all 0.5s ease-in-out;
     }
     
     .emoji2 {
-        opacity: 0;
+        opacity: 1;
         position: absolute;
-        transform: translateX(10%);
+        transform: translateX(0%);
         transition: all 0.5s ease-in-out;
     }
     
@@ -757,7 +757,7 @@ div .first-icon {
     }
 
     .text {
-        font-size: 25px;
+        font-size: 23px;
         font-family: 'Roboto', sans-serif;
     }
 
@@ -784,7 +784,7 @@ div .first-icon {
     }
 
     .work-txt {
-        font-size: 22px;
+        font-size: 20px;
         margin-top: 30px;
         margin-bottom: 70px;
         padding-left: 22px;
@@ -856,7 +856,7 @@ div .first-icon {
         margin-bottom: 30px;
         flex-direction: column;
     }
-    .emoji3 {
+    /* .emoji3 {
         opacity: 0;
         position: absolute;
         transform: translateX(5%);
@@ -879,7 +879,7 @@ div .first-icon {
         opacity: 1;
         transform: translateX(0px);
         transition: all 0.5s ease-in-out;
-    }
+    } */
 }
 
 @media screen and (max-width: 425px) {
@@ -1026,7 +1026,7 @@ div .first-icon {
         margin-bottom: 30px;
         flex-direction: column;
     }
-    .emoji3 {
+    /* .emoji3 {
         opacity: 0;
         position: absolute;
         transform: translateX(20%);
@@ -1049,7 +1049,7 @@ div .first-icon {
         opacity: 1;
         transform: translateX(0px);
         transition: all 0.5s ease-in-out;
-    }
+    } */
 }
 
 @media screen and (max-width: 320px) {
