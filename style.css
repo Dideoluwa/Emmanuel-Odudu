@@ -473,20 +473,62 @@ div .first-icon {
 .contact-links p:hover::after {
     width: 100%;
 }
-.date{
+
+.date {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     margin-bottom: 70px;
     padding-left: 22px;
 }
-.credit{
+
+.credit {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
 }
-.cred{
+
+.cred {
     display: flex;
     justify-content: space-around;
 }
+
+.emoji3 {
+    opacity: 0;
+    position: absolute;
+    transform: translateX(30%);
+    transition: all 0.5s ease-in-out;
+}
+.w3:hover + .emoji3 {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 0.5s ease-in-out;
+}
+
+.emoji2 {
+    opacity: 0;
+    position: absolute;
+    transform: translateX(30%);
+    transition: all 0.5s ease-in-out;
+}
+
+.w2:hover+.emoji2 {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 0.5s ease-in-out;
+}
+/* .emoji4 {
+    opacity: 0;
+    position: absolute;
+    transform: translateX(70%);
+    transition: all 0.5s ease-in-out;
+}
+
+.w4:hover+.emoji4 {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 0.5s ease-in-out;
+} */
+
+
 /* .don::after{
     content: '';
     display: block;
@@ -661,8 +703,33 @@ div .first-icon {
     .item4 {
         width: 40%;
     }
+
     .contact {
         margin-top: 60px;
+    }
+    .emoji3 {
+        opacity: 0;
+        position: absolute;
+        transform: translateX(10%);
+        transition: all 0.5s ease-in-out;
+    }
+    .w3:hover + .emoji3 {
+        opacity: 1;
+        transform: translateX(0%);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .emoji2 {
+        opacity: 0;
+        position: absolute;
+        transform: translateX(10%);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .w2:hover+.emoji2 {
+        opacity: 1;
+        transform: translateX(0px);
+        transition: all 0.5s ease-in-out;
     }
 }
 
@@ -717,7 +784,7 @@ div .first-icon {
     }
 
     .work-txt {
-        font-size: 25px;
+        font-size: 22px;
         margin-top: 30px;
         margin-bottom: 70px;
         padding-left: 22px;
@@ -774,17 +841,44 @@ div .first-icon {
         margin-top: 30px;
         font-size: 20px;
     }
-    .date{
+
+    .date {
         font-size: 20px;
         margin-bottom: 10px;
         padding-left: 0px;
     }
-    .credit{
+
+    .credit {
         font-size: 20px;
     }
-    .cred{
+
+    .cred {
         margin-bottom: 30px;
         flex-direction: column;
+    }
+    .emoji3 {
+        opacity: 0;
+        position: absolute;
+        transform: translateX(5%);
+        transition: all 0.5s ease-in-out;
+    }
+    .w3:hover + .emoji3 {
+        opacity: 1;
+        transform: translateX(0%);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .emoji2 {
+        opacity: 0;
+        position: absolute;
+        transform: translateX(5%);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .w2:hover+.emoji2 {
+        opacity: 1;
+        transform: translateX(0px);
+        transition: all 0.5s ease-in-out;
     }
 }
 
@@ -917,17 +1011,44 @@ div .first-icon {
         margin-top: 30px;
         font-size: 17px;
     }
-    .date{
+
+    .date {
         font-size: 16px;
         margin-bottom: 10px;
         padding-left: 0px;
     }
-    .credit{
+
+    .credit {
         font-size: 16px;
     }
-    .cred{
+
+    .cred {
         margin-bottom: 30px;
         flex-direction: column;
+    }
+    .emoji3 {
+        opacity: 0;
+        position: absolute;
+        transform: translateX(20%);
+        transition: all 0.5s ease-in-out;
+    }
+    .w3:hover + .emoji3 {
+        opacity: 1;
+        transform: translateX(0%);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .emoji2 {
+        opacity: 0;
+        position: absolute;
+        transform: translateX(20%);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .w2:hover+.emoji2 {
+        opacity: 1;
+        transform: translateX(0px);
+        transition: all 0.5s ease-in-out;
     }
 }
 
@@ -1007,14 +1128,17 @@ div .first-icon {
         margin-top: 20px;
         font-size: 12px;
     }
-    .date{
+
+    .date {
         font-size: 13px;
         margin-bottom: 10px;
     }
-    .credit{
+
+    .credit {
         font-size: 13px;
     }
-    .cred{
+
+    .cred {
         flex-direction: column;
         margin-bottom: 30px;
         /* justify-content: space-between; */
