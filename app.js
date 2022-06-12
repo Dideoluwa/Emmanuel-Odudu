@@ -78,6 +78,6 @@ setInterval((e) =>{
     let year = date.getUTCFullYear();
     h = (h < 10) ? "0" + h : h;
     m = (m < 10) ? "0" + m : m;
-    let newdate ='Ⓒ' + ' ' +h + ':' + m + ' ' +  '|'+ d + ',' + month + ' ' + year;
+    let newdate ='Ⓒ' + ' ' +h + ':' + m + ' ' +  '|'+' ' + d + ',' + month + ' ' + year;
     dateDisplay.innerHTML = newdate
 }, 1000)
