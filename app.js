@@ -42,12 +42,11 @@ menuList.addEventListener('click', () => {
 dark.addEventListener('click', () => {
     document.body.style.background = 'black'
     document.body.style.color = 'white'
-    nav.style.backgroundColor = 'black'
+    nav.style.backgroundColor = 'rgba(0, 0, 0, 0.959)'
     icon1.style.background = 'white'
     icon2.style.background = 'white'
     icon3.style.background = 'white'
     for(let head of heading)
-    // head.style.color = 'rgb(239, 54, 57)'
     head.style.color = 'rgb(90, 90, 90)'
     for(let works of work){
         works.style.color = 'rgb(205, 205, 205)'
@@ -56,12 +55,11 @@ dark.addEventListener('click', () => {
 light.addEventListener('click', () => {
     document.body.style.background = 'white'
     document.body.style.color = 'black'
-    nav.style.backgroundColor = 'white'
+    nav.style.backgroundColor = 'rgba(255, 255, 255, 0.959)'
     icon1.style.background = 'black'
     icon2.style.background = 'black'
     icon3.style.background = 'black'
     for(let head of heading)
-    // head.style.color = 'rgb(112, 112, 187)'
     head.style.color = 'rgb(32, 32, 32)'
     for(let works of work){
         works.style.color = 'rgb(46, 46, 46)'
