@@ -504,7 +504,7 @@ div .first-icon {
     justify-content: space-between;
 }
 .first_row_wrapper1{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 80%;
     overflow: hidden;
     background-size: cover;
@@ -526,7 +526,7 @@ div .first-icon {
     transform: scale(1.1);
 }
 .first_row_wrapper{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 90%;
     overflow: hidden;
     background-size: cover;
@@ -549,7 +549,7 @@ div .first-icon {
     justify-content: space-between;
 }
 .second_row_wrapper1{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 30%;
     overflow: hidden;
     background-size: cover;
@@ -563,7 +563,7 @@ div .first-icon {
     transition: all 0.2s ease-in-out;
 }
 .second_row_wrapper2{
-    border-radius: 25px;
+    border-radius: 10px;
     width: 30%;
     overflow: hidden;
     background-size: cover;
